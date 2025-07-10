@@ -8,7 +8,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   color: #1a1a1a;
-  background-color: #f8f9fc;
+  background-color: #F5F8FF;
 }
 
 /* Navbar */
@@ -62,7 +62,7 @@ body {
   color: #222;
 }
 
-/* See It in Action Section */
+/*  Action Section */
 .see-it-section {
   background-color: #f8f9fc;
   padding: 100px 20px;
@@ -88,6 +88,8 @@ body {
   font-weight: 700;
   color: #1a1a1a;
   margin-bottom: 15px;
+  margin: 0 auto 10px auto;
+  text-align: center;
 }
 
 .see-it-text p {
@@ -95,6 +97,9 @@ body {
   color: #777;
   margin-bottom: 20px;
   max-width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .btn-preview {
@@ -102,6 +107,8 @@ body {
   background-color: #4E47FF;
   padding: 10px 20px;
   border-radius: 8px;
+  margin: 10 auto 100px auto;
+  margin-left: 200px;
 }
 
 .see-it-image {
@@ -115,3 +122,47 @@ body {
   border-radius: 24px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
+
+
+
+/* Productive Users section */
+
+.stats-section {
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 16px;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto 100px auto;
+  text-align: center;
+}
+
+.stats-heading {
+  font-size: 30px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 30px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.stat-item h3 {
+  font-size: 60px;
+  color: #4E47FF;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.stat-item p {
+  font-size: 10px;
+  color: #777;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/*Review section*/
+
