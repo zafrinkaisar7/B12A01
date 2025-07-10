@@ -154,8 +154,28 @@ body {
   font-size: 60px;
   color: #4E47FF;
   margin-bottom: 10px;
-  font-weight: 700;
+  font-weight: Bold;
+  font-family: Arial; 
+  min-width: 100px; 
+  text-align: center;
 }
+
+}
+
+.stat-item p {
+  font-size: 10px;
+  color: #777;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .stat-item p {
   font-size: 10px;
@@ -261,7 +281,7 @@ body {
   margin-bottom: 40px;
 }
 
-/*Focus better section*/
+
 
 /* Focus Better Section */
 
